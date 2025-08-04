@@ -17,7 +17,6 @@ export default function Home() {
         setActiveProject(null);
       }
     };
-
     document.addEventListener("click", handleClickOutside);
     return () => document.removeEventListener("click", handleClickOutside);
   }, [activeProject]);

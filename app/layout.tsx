@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,8 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <style>
-          @import
-          url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+          {`@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap');`}
         </style>
       </head>
       <body className="flex flex-col items-center justify-center min-h-screen h-[100vh]">
