@@ -48,7 +48,7 @@ export default function Home() {
         {
           title: "🤖 Bot Architecture",
           content:
-            "Engineered with discord.py, StandUP Bot streamlines team communication through intelligent automation. Some features include timezone-aware scheduling and role-based permissions. The bot's thread-based ticket system creates organized workspaces while ensuring data reliability across restarts.",
+            "Engineered with discord.py, StandUP Bot streamlines team communication through intelligent automation. Some features include timezone-aware scheduling and role-based permissions. The bot&apos;s thread-based ticket system creates organized workspaces while ensuring data reliability across restarts.",
         },
         {
           title: "⚡ Workflow Enhancement",
@@ -62,7 +62,7 @@ export default function Home() {
         {
           title: "🏭 Calculator Design",
           content:
-            "A Next.js-powered production calculator that brings clarity to Factorio's complex manufacturing chains. Built from passion for the game's engineering puzzles, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
+            "A Next.js-powered production calculator that brings clarity to Factorio&apos;s complex manufacturing chains. Built from passion for the game&apos;s engineering puzzles, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
         },
         {
           title: "🎯 Development Vision",
@@ -89,7 +89,7 @@ export default function Home() {
 
   return (
     <>
-      <h1 className="mb-12">Rosen Markov's portfolio</h1>
+      <h1 className="mb-12">Rosen Markov&apos;s portfolio</h1>
       <div className="w-[80vw] h-3/5 grid grid-cols-3 grid-rows-4 gap-2 grid-flow-col">
         <div className="col-span-1 row-span-4 rounded-2xl border-[1] border-white/15 p-4">
           {/* PFP AND TITLE SECTION */}
@@ -99,7 +99,7 @@ export default function Home() {
               className="rounded-full min-w-[150px] h-[150px] flex items-center justify-center"
             >
               <img
-                src={"/images/pfp.png"}
+                src="/images/pfp.png"
                 alt="Portfolio Image"
                 className="rounded-full w-[150px] h-[150px] -z-[1] object-cover"
               />
@@ -108,7 +108,7 @@ export default function Home() {
             {/* TITLE SEC */}
             <div className="flex flex-col w-max ml-4">
               <h1 className="border-b border-white/20 text-md mb-4 h-max pb-2">
-                Hey 👋 I'm Rosen
+                Hey 👋 I&apos;m Rosen
               </h1>
               <ul className="border-b border-white/10  text-[13px] h-max pb-2">
                 <li className="mb-2">
@@ -124,7 +124,7 @@ export default function Home() {
           {/* PFP AND TITLE SECTION */}
           <div className="mt-4 flex flex-col justify-evenly ">
             <p className="text-md hover:text-white/90 transition-all duration-200 ease-in-out text-white/60">
-              I'm a software engineer passionate about building responsive web
+              I&apos;m a software engineer passionate about building responsive web
               apps. I work with React and Next.js for dynamic UIs and have built
               full-stack projects using Django and Python, implementing REST
               APIs, CRUD features, and clean backend logic.
@@ -336,7 +336,7 @@ export default function Home() {
           </div>
           <p className="text-sm text-white/60">
             Next.js production calculator with sleek design, built from passion
-            for the game's complexity.
+            for the game&apos;s complexity.
           </p>
         </motion.div>
 
