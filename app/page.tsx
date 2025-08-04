@@ -8,11 +8,14 @@ export default function Home() {
 
   // Handle clicking outside to close project details
   useEffect(() => {
-    const handleClickOutside = (event) => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement | null;
+
       if (
         activeProject &&
-        !event.target.closest(".project-container") &&
-        !event.target.closest(".project-trigger")
+        target &&
+        !target.closest(".project-container") &&
+        !target.closest(".project-trigger")
       ) {
         setActiveProject(null);
       }
@@ -123,10 +126,10 @@ export default function Home() {
           {/* PFP AND TITLE SECTION */}
           <div className="mt-4 flex flex-col justify-evenly ">
             <p className="text-md hover:text-white/90 transition-all duration-200 ease-in-out text-white/60">
-              I&apos;m a software engineer passionate about building responsive web
-              apps. I work with React and Next.js for dynamic UIs and have built
-              full-stack projects using Django and Python, implementing REST
-              APIs, CRUD features, and clean backend logic.
+              I&apos;m a software engineer passionate about building responsive
+              web apps. I work with React and Next.js for dynamic UIs and have
+              built full-stack projects using Django and Python, implementing
+              REST APIs, CRUD features, and clean backend logic.
             </p>
             <div className="flex justify-evenly mt-8">
               <img
