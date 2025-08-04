@@ -4,7 +4,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const [activeProject, setActiveProject] = useState(null);
+
+type ProjectKey = keyof typeof projectData;
+
+const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
 
   // Handle clicking outside to close project details
   useEffect(() => {
