@@ -413,7 +413,7 @@ export default function Home() {
               className="rounded-full w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] flex items-center justify-center flex-shrink-0"
             >
               <img
-                src="/images/pfp.png"
+                src="https://github.com/rosenmarkov35.png"
                 alt="Portfolio Image"
                 className="rounded-full w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] -z-[1] object-cover"
               />
