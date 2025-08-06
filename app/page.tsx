@@ -9,7 +9,6 @@ type ProjectKey = keyof typeof projectData;
 
 const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
 
-  // Handle clicking outside to close project details
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       const target = event.target as HTMLElement | null;
@@ -207,7 +206,6 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
             </div>
           </div>
 
-          {/* Animated content sections */}
           <AnimatePresence mode="wait">
             {!activeProject ? (
               <>
@@ -397,9 +395,9 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
         </div>
       </div>
 
-      {/* Mobile & Tablet Layout */}
+      {/* Mobile Layout */}
       <div className="lg:hidden space-y-6">
-        {/* Profile Section - Mobile */}
+        {/* Profile Section */}
         <div className="rounded-2xl border border-white/15 p-4 md:p-6">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
             <div
@@ -482,7 +480,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
           </div>
         </div>
 
-        {/* About Sections - Mobile */}
+        {/* About Sections */}
         <div className="grid gap-4 md:grid-cols-2">
           <div className="rounded-2xl border border-white/15 p-4 md:p-6">
             <h1 className="border-b border-white/20 pb-2 mb-4">
@@ -511,7 +509,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
           </div>
         </div>
 
-        {/* Project Details - Mobile */}
+        {/* Project Details */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -558,7 +556,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
           </AnimatePresence>
         </motion.div>
 
-        {/* Projects Grid - Mobile */}
+        {/* Projects Grid  */}
         <div className="grid gap-4 sm:grid-cols-2">
           <motion.div
             className={`${
