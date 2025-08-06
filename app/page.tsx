@@ -87,7 +87,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
         {
           title: "🏭 Calculator Design",
           content:
-            "A Next.js production calculator that brings clarity to Factorio&apos;s complex manufacturing chains. Built from passion for the game&apos;s engineering puzzles, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
+            "A Next.js production calculator thata brings clarity to Factorio&apos;s complex manufacturing chains. Built from passion for the game&apos;s engineering puzzles, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
         },
         {
           title: "🎯 Development Vision",
