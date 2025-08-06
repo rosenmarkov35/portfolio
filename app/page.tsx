@@ -73,7 +73,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
         {
           title: "🤖 Bot Architecture",
           content:
-            "Engineered with discord.py, StandUP Bot streamlines team communication through intelligent automation. Some features include timezone-aware scheduling and role-based permissions. The bot's thread-based ticket system creates organized workspaces while ensuring data reliability across restarts.",
+            "Engineered with discord.py, StandUP Bot streamlines team communication through intelligent automation. Some features include timezone-aware scheduling and role-based permissions. The bot&apos;s thread-based ticket system creates organized workspaces while ensuring data reliability across restarts.",
         },
         {
           title: "⚡ Workflow Enhancement",
@@ -87,7 +87,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
         {
           title: "🏭 Calculator Design",
           content:
-            "A Next.js production calculator that brings clarity to Factorio's complex manufacturing chains. Built from passion for the game's engineering puzzles, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
+            "A Next.js production calculator that brings clarity to Factorio&apos;s complex manufacturing chains. Built from passion for the game&apos;s engineering puzzles, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
         },
         {
           title: "🎯 Development Vision",
@@ -115,7 +115,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
   return (
     <div className="min-h-screen p-4 md:p-8">
       <h1 className="mb-8 md:mb-12 text-2xl md:text-3xl lg:text-4xl text-center md:text-left">
-        Rosen Markov's portfolio
+        Rosen Markov&apos;s portfolio
       </h1>
       
       {/* Desktop Layout */}
@@ -152,7 +152,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
 
             <div className="mt-4 flex flex-col justify-evenly">
               <p className="text-md hover:text-white/90 transition-all duration-200 ease-in-out text-white/60">
-                I'm a software engineer passionate about building responsive
+                I&apos;m a software engineer passionate about building responsive
                 web apps. I work with React and Next.js for dynamic UIs and have
                 built full-stack projects using Django and Python, implementing
                 REST APIs, CRUD features, and clean backend logic.
@@ -365,7 +365,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
             </div>
             <p className="text-sm text-white/60">
               Next.js production calculator with sleek design, built from passion
-              for the game's complexity.
+              for the game&apos;s complexity.
             </p>
           </motion.div>
 
@@ -415,7 +415,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
 
             <div className="flex flex-col text-center sm:text-left">
               <h1 className="border-b border-white/20 text-lg mb-4 pb-2">
-                Hey 👋 I'm Rosen
+                Hey 👋 I&apos;m Rosen
               </h1>
               <ul className="border-b border-white/10 text-sm pb-2 space-y-1">
                 <li>✨ Still trying to center divs since 2022</li>
@@ -426,7 +426,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
 
           <div className="mt-6">
             <p className="text-sm md:text-base text-white/60 hover:text-white/90 transition-all duration-200 ease-in-out mb-6">
-              I'm a software engineer passionate about building responsive
+              I&apos;m a software engineer passionate about building responsive
               web apps. I work with React and Next.js for dynamic UIs and have
               built full-stack projects using Django and Python, implementing
               REST APIs, CRUD features, and clean backend logic.
@@ -634,7 +634,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
             </div>
             <p className="text-sm md:text-base text-white/60">
               Next.js production calculator with sleek design, built from passion
-              for the game's complexity.
+              for the game&apos;s complexity.
             </p>
           </motion.div>
 
