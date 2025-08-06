@@ -1,13 +1,12 @@
 "use client";
 
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, easeInOut } from "framer-motion";
 import { useState, useEffect } from "react";
 
 export default function Home() {
+  type ProjectKey = keyof typeof projectData;
 
-type ProjectKey = keyof typeof projectData;
-
-const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
+  const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
 
   // Handle clicking outside to close project details
   useEffect(() => {
@@ -34,23 +33,30 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
   };
 
   const containerVariants = {
-    hidden: { height: 0, opacity: 0 },
-    visible: { 
-      height: "auto", 
-      opacity: 1,
-      transition: {
-        height: { duration: 0.4, ease: "easeInOut" },
-        opacity: { duration: 0.3, delay: 0.1 }
-      }
-    },
-    exit: { 
-      height: 0, 
+    hidden: {
       opacity: 0,
+      scaleY: 0,
+      originY: 0,
+    },
+    visible: {
+      opacity: 1,
+      scaleY: 1,
+      originY: 0,
       transition: {
-        height: { duration: 0.4, ease: "easeInOut", delay: 0.1 },
-        opacity: { duration: 0.2 }
-      }
-    }
+        duration: 0.4,
+        ease: easeInOut,
+        delay: 0.1,
+      },
+    },
+    exit: {
+      opacity: 0,
+      scaleY: 0,
+      originY: 0,
+      transition: {
+        duration: 0.3,
+        ease: easeInOut,
+      },
+    },
   };
 
   const projectData = {
@@ -87,7 +93,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
         {
           title: "🏭 Calculator Design",
           content:
-            "A Next.js production calculator thata brings clarity to Factorio&apos;s complex manufacturing chains. Built from passion for the game&apos;s engineering puzzles, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
+            "A Next.js production calculator that brings clarity to Factorio&apos;s complex manufacturing chains. Built from passion for the game&apos;s engineering puzzles, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
         },
         {
           title: "🎯 Development Vision",
@@ -117,7 +123,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
       <h1 className="mb-8 md:mb-12 text-2xl md:text-3xl lg:text-4xl text-center md:text-left">
         Rosen Markov&apos;s portfolio
       </h1>
-      
+
       {/* Desktop Layout */}
       <div className="hidden lg:block w-full max-w-[90vw] xl:max-w-[80vw] mx-auto">
         <div className="h-[70vh] grid grid-cols-3 grid-rows-4 gap-2 grid-flow-col">
@@ -152,10 +158,10 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
 
             <div className="mt-4 flex flex-col justify-evenly">
               <p className="text-md hover:text-white/90 transition-all duration-200 ease-in-out text-white/60">
-                I&apos;m a software engineer passionate about building responsive
-                web apps. I work with React and Next.js for dynamic UIs and have
-                built full-stack projects using Django and Python, implementing
-                REST APIs, CRUD features, and clean backend logic.
+                I&apos;m a software engineer passionate about building
+                responsive web apps. I work with React and Next.js for dynamic
+                UIs and have built full-stack projects using Django and Python,
+                implementing REST APIs, CRUD features, and clean backend logic.
               </p>
               <div className="flex justify-evenly mt-8 flex-wrap gap-2">
                 <img
@@ -245,10 +251,10 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
                   </h1>
                   <p className="text-sm text-white/60 mt-4">
                     After completing my courses, I applied my knowledge to
-                    numerous projects, honing both frontend and backend skills. I
-                    have a strong passion for frontend development and crafting
-                    unique, purposeful solutions that focus on user-centered
-                    design and real-world problem-solving.
+                    numerous projects, honing both frontend and backend skills.
+                    I have a strong passion for frontend development and
+                    crafting unique, purposeful solutions that focus on
+                    user-centered design and real-world problem-solving.
                   </p>
                 </motion.div>
               </>
@@ -364,8 +370,8 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
               </motion.span>
             </div>
             <p className="text-sm text-white/60">
-              Next.js production calculator with sleek design, built from passion
-              for the game&apos;s complexity.
+              Next.js production calculator with sleek design, built from
+              passion for the game&apos;s complexity.
             </p>
           </motion.div>
 
@@ -419,7 +425,9 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
               </h1>
               <ul className="border-b border-white/10 text-sm pb-2 space-y-1">
                 <li>✨ Still trying to center divs since 2022</li>
-                <li>🎯 My aim is to build applications with no user friction</li>
+                <li>
+                  🎯 My aim is to build applications with no user friction
+                </li>
               </ul>
             </div>
           </div>
@@ -431,7 +439,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
               built full-stack projects using Django and Python, implementing
               REST APIs, CRUD features, and clean backend logic.
             </p>
-            
+
             <div className="grid grid-cols-5 sm:grid-cols-9 gap-3 justify-items-center">
               <img
                 className="w-8 h-8 cursor-pointer hover:scale-115 transition-all duration-200"
@@ -489,24 +497,24 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
               📚 Learning since 2021/22
             </h1>
             <p className="text-sm md:text-base text-white/60">
-              I started learning programming out of pure interest and
-              passion for IT and computers early in 2020. Starting 2021, I
-              took several online software development courses at SoftUni,
-              focusing heavily on Python and gaining a solid foundation in
-              programming and backend development.
+              I started learning programming out of pure interest and passion
+              for IT and computers early in 2020. Starting 2021, I took several
+              online software development courses at SoftUni, focusing heavily
+              on Python and gaining a solid foundation in programming and
+              backend development.
             </p>
           </div>
-          
+
           <div className="rounded-2xl border border-white/15 p-4 md:p-6">
             <h1 className="border-b border-white/20 pb-2 mb-4">
               🧑🏻‍💻 What Came Next
             </h1>
             <p className="text-sm md:text-base text-white/60">
-              After completing my courses, I applied my knowledge to
-              numerous projects, honing both frontend and backend skills. I
-              have a strong passion for frontend development and crafting
-              unique, purposeful solutions that focus on user-centered
-              design and real-world problem-solving.
+              After completing my courses, I applied my knowledge to numerous
+              projects, honing both frontend and backend skills. I have a strong
+              passion for frontend development and crafting unique, purposeful
+              solutions that focus on user-centered design and real-world
+              problem-solving.
             </p>
           </div>
         </div>
@@ -633,8 +641,8 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
               </motion.span>
             </div>
             <p className="text-sm md:text-base text-white/60">
-              Next.js production calculator with sleek design, built from passion
-              for the game&apos;s complexity.
+              Next.js production calculator with sleek design, built from
+              passion for the game&apos;s complexity.
             </p>
           </motion.div>
 
