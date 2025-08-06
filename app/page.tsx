@@ -9,6 +9,7 @@ type ProjectKey = keyof typeof projectData;
 
 const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
 
+  // Handle clicking outside to close project details
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       const target = event.target as HTMLElement | null;
@@ -136,7 +137,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
 
               <div className="flex flex-col w-max ml-4">
                 <h1 className="border-b border-white/20 text-md mb-4 h-max pb-2">
-                  Hey 👋 I'm Rosen
+                  Hey 👋 I&apos;m Rosen
                 </h1>
                 <ul className="border-b border-white/10 text-[13px] h-max pb-2">
                   <li className="mb-2">
@@ -206,6 +207,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
             </div>
           </div>
 
+          {/* Animated content sections */}
           <AnimatePresence mode="wait">
             {!activeProject ? (
               <>
@@ -395,9 +397,9 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
         </div>
       </div>
 
-      {/* Mobile Layout */}
+      {/* Mobile & Tablet Layout */}
       <div className="lg:hidden space-y-6">
-        {/* Profile Section */}
+        {/* Profile Section - Mobile */}
         <div className="rounded-2xl border border-white/15 p-4 md:p-6">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
             <div
@@ -480,7 +482,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
           </div>
         </div>
 
-        {/* About Sections */}
+        {/* About Sections - Mobile */}
         <div className="grid gap-4 md:grid-cols-2">
           <div className="rounded-2xl border border-white/15 p-4 md:p-6">
             <h1 className="border-b border-white/20 pb-2 mb-4">
@@ -509,7 +511,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
           </div>
         </div>
 
-        {/* Project Details */}
+        {/* Project Details - Mobile */}
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -556,7 +558,7 @@ const [activeProject, setActiveProject] = useState<ProjectKey | null>(null);
           </AnimatePresence>
         </motion.div>
 
-        {/* Projects Grid  */}
+        {/* Projects Grid - Mobile */}
         <div className="grid gap-4 sm:grid-cols-2">
           <motion.div
             className={`${
