@@ -147,7 +147,7 @@ export default function Home() {
                 </h1>
                 <ul className="border-b border-white/10 text-[13px] h-max pb-2">
                   <li className="mb-2">
-                    ✨ Still trying to center divs since 2022
+                    ✨ Keyboard shortcuts are my only superpower.
                   </li>
                   <li className="mb-2">
                     🎯 My aim is to build applications with no user friction
