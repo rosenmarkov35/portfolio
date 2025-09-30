@@ -79,7 +79,7 @@ export default function Home() {
         {
           title: "🤖 Bot Architecture",
           content:
-            "Engineered with discord.py, StandUP Bot streamlines team communication through intelligent automation. Some features include timezone-aware scheduling and role-based permissions. The bot&apos;s thread-based ticket system creates organized workspaces while ensuring data reliability across restarts.",
+            "Engineered with discord.py, StandUP Bot streamlines team communication through intelligent automation. Some features include timezone-aware scheduling and role-based permissions. The bot&lsquo;s thread-based ticket system creates organized workspaces while ensuring data reliability across restarts.",
         },
         {
           title: "⚡ What I learned",
@@ -93,7 +93,7 @@ export default function Home() {
         {
           title: "🏭 Calculator Design",
           content:
-            "A Next.js production calculator that brings clarity to Factorio&apos;s complex manufacturing chains. Built from passion for the game&apos;s engineering puzzles, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
+            "A Next.js production calculator that brings clarity to Factorio&lsquo;s complex manufacturing chains. Built from passion for the game&lsquo;s engineering puzzles, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
         },
         {
           title: "🎯 Development Vision",
@@ -121,7 +121,7 @@ export default function Home() {
   return (
     <div className="min-h-screen p-4 md:p-8">
       <h1 className="mb-8 md:mb-12 text-2xl md:text-3xl lg:text-4xl text-center md:text-left">
-        Rosen Markov&apos;s portfolio
+        Rosen Markov&lsquo;s portfolio
       </h1>
 
       {/* Desktop Layout */}
@@ -143,7 +143,7 @@ export default function Home() {
 
               <div className="flex flex-col w-max ml-4">
                 <h1 className="border-b border-white/20 text-md mb-4 h-max pb-2">
-                  Hey 👋 I&apos;m Rosen
+                  Hey 👋 I&lsquo;m Rosen
                 </h1>
                 <ul className="border-b border-white/10 text-[13px] h-max pb-2">
                   <li className="mb-2">
@@ -371,7 +371,7 @@ export default function Home() {
             </div>
             <p className="text-sm text-white/60">
               Next.js production calculator with sleek design, built from
-              passion for the game's complexity.
+              passion for the game&lsquo;s complexity.
             </p>
           </motion.div>
 
@@ -423,7 +423,7 @@ export default function Home() {
 
             <div className="flex flex-col text-center sm:text-left">
               <h1 className="border-b border-white/20 text-lg mb-4 pb-2">
-                Hey 👋 I'm Rosen
+                Hey 👋 I&lsquo;m Rosen
               </h1>
               <ul className="border-b border-white/10 text-sm pb-2 space-y-1">
                 <li>✨ Still trying to center divs since 2022</li>
@@ -436,7 +436,7 @@ export default function Home() {
 
           <div className="mt-6">
             <p className="text-sm md:text-base text-white/60 hover:text-white/90 transition-all duration-200 ease-in-out mb-6">
-              I'm a software engineer passionate about building responsive
+              I&lsquo;m a software engineer passionate about building responsive
               web apps. I work with React and Next.js for dynamic UIs and have
               built full-stack projects using Django and Python, implementing
               REST APIs, CRUD features, and clean backend logic.
@@ -644,7 +644,7 @@ export default function Home() {
             </div>
             <p className="text-sm md:text-base text-white/60">
               Next.js production calculator with sleek design, built from
-              passion for the game&apos;s complexity.
+              passion for the game&lsquo;s complexity.
             </p>
           </motion.div>
 
