@@ -371,7 +371,7 @@ export default function Home() {
             </div>
             <p className="text-sm text-white/60">
               Next.js production calculator with sleek design, built from
-              passion for the game&apos;s complexity.
+              passion for the game's complexity.
             </p>
           </motion.div>
 
@@ -423,7 +423,7 @@ export default function Home() {
 
             <div className="flex flex-col text-center sm:text-left">
               <h1 className="border-b border-white/20 text-lg mb-4 pb-2">
-                Hey 👋 I&apos;m Rosen
+                Hey 👋 I'm Rosen
               </h1>
               <ul className="border-b border-white/10 text-sm pb-2 space-y-1">
                 <li>✨ Still trying to center divs since 2022</li>
@@ -436,7 +436,7 @@ export default function Home() {
 
           <div className="mt-6">
             <p className="text-sm md:text-base text-white/60 hover:text-white/90 transition-all duration-200 ease-in-out mb-6">
-              I&apos;m a software engineer passionate about building responsive
+              I'm a software engineer passionate about building responsive
               web apps. I work with React and Next.js for dynamic UIs and have
               built full-stack projects using Django and Python, implementing
               REST APIs, CRUD features, and clean backend logic.
