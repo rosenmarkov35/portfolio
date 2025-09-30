@@ -112,7 +112,7 @@ export default function Home() {
         {
           title: "💡 Project Insights",
           content:
-            "This project taught me how to design and complete a full web application from start to finish. I worked with Django, leveraging its documentation to implement and extend features like the User model, CRUD operations, authentication, and reusable UI components. From the idea of a sports equipment store to a fully functional, dynamic, and user-friendly platform.",
+            "This project taught me how to design and complete a full web application from start to finish. I worked with Django, using its documentation to implement and extend features like the User model, CRUD operations, authentication, and reusable UI components. From the idea of a sports equipment store to a fully functional and user-friendly platform.",
         },
       ],
     },
