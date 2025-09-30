@@ -110,9 +110,9 @@ export default function Home() {
             "My first full-stack journey resulted in a comprehensive workout equipment marketplace. Built with Django and PostgreSQL, featuring CRUD operations, user authentication, product reviews, and shopping cart functionality. This project established my understanding of database relationships and user experience flow.",
         },
         {
-          title: "📈 Learning Milestone",
+          title: "💡 Project Insights",
           content:
-            "As a course capstone project, this e-commerce platform marked my transition from theory to practical application. The experience of building user registration, payment processing, and inventory management taught me the importance of data validation, security considerations, and scalable architecture patterns.",
+            "This project taught me how to design and complete a full web application from start to finish. I worked with Django, leveraging its documentation to implement and extend features like the User model, CRUD operations, authentication, and reusable UI components. From the idea of a sports equipment store to a fully functional, dynamic, and user-friendly platform.",
         },
       ],
     },
