@@ -82,9 +82,9 @@ export default function Home() {
             "Engineered with discord.py, StandUP Bot streamlines team communication through intelligent automation. Some features include timezone-aware scheduling and role-based permissions. The bot&apos;s thread-based ticket system creates organized workspaces while ensuring data reliability across restarts.",
         },
         {
-          title: "⚡ Workflow Enhancement",
+          title: "⚡ What I learned",
           content:
-            "Transforms chaotic team updates into structured, actionable insights. Automated reminders eliminate missed standups, while the ticket system converts discussions into trackable tasks. The bot maintains channel hygiene, making team communication more efficient and less cluttered.",
+            "This project taught me how to design and complete a full project architecture from start to finish. I worked with discord.py, making use of the extensive documentation to implement and extend every feature I planned for the project. From the idea of a bot that automates standups to a fully functional product with considerable user-friendly features.",
         },
       ],
     },
