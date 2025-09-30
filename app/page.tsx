@@ -68,9 +68,9 @@ export default function Home() {
             "Built with React and Django REST Framework, DartOne features game tracking, statistical analysis, and responsive design. The backend handles scoring algorithms while the frontend provides an intuitive user experience with live updates and interactive charts for performance visualization.",
         },
         {
-          title: "📊 Project Impact",
+          title: "📊 Key Takeaways",
           content:
-            "DartOne revolutionizes how players track their progress with automated scoring, historical performance analysis, and competitive leaderboards. Players can identify improvement areas, set goals, and compete with friends through detailed statistics and achievement systems.",
+            "Developing DartOne taught me how to design and implement a complete application with a focus on user interaction and data analysis. I gained experience in handling automated scoring, storing and visualizing historical performance, and frontend design concepts or trends while aiming to minimize friction and create a smooth UX.",
         },
       ],
     },
@@ -158,10 +158,7 @@ export default function Home() {
 
             <div className="mt-4 flex flex-col justify-evenly">
               <p className="text-md hover:text-white/90 transition-all duration-200 ease-in-out text-white/60">
-                I&apos;m a software engineer passionate about building
-                responsive web apps. I work with React and Next.js for dynamic
-                UIs and have built full-stack projects using Django and Python,
-                implementing REST APIs, CRUD features, and clean backend logic.
+                I design and build full-stack web applications that are both performant and user-friendly. My work combines responsive React/Next.js interfaces with Django/Python backends, RESTful APIs, and CRUD systems to deliver seamless experiences that put users first.
               </p>
               <div className="flex justify-evenly mt-8 flex-wrap gap-2">
                 <img
@@ -309,6 +306,7 @@ export default function Home() {
           >
             <div className="flex items-center justify-between">
               <h1 className="">🎯 DartOne</h1>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/rosenmarkov35/DartOne" className="text-xs text-white/40 cursor-pointer hover:underline">View Repo</a>
               <motion.span
                 className="text-white/50 text-sm"
                 animate={{ rotate: activeProject === "dartone" ? 180 : 0 }}
@@ -335,6 +333,7 @@ export default function Home() {
           >
             <div className="flex items-center justify-between">
               <h1 className="">🤖 StandUP Bot</h1>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/rosenmarkov35/Discord-StandUP-Bot" className="text-xs text-white/40 cursor-pointer hover:underline">View Repo</a>
               <motion.span
                 className="text-white/50 text-sm"
                 animate={{ rotate: activeProject === "standup" ? 180 : 0 }}
@@ -361,6 +360,7 @@ export default function Home() {
           >
             <div className="flex items-center justify-between">
               <h1 className="">🏭 Factorio Calculator</h1>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/rosenmarkov35/Factorio-Calculator" className="text-xs text-white/40 cursor-pointer hover:underline">View Repo</a>
               <motion.span
                 className="text-white/50 text-sm"
                 animate={{ rotate: activeProject === "factorio" ? 180 : 0 }}
@@ -387,6 +387,8 @@ export default function Home() {
           >
             <div className="flex items-center justify-between">
               <h1 className="">🛒 Exam Site</h1>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/rosenmarkov35/exam_site" className="text-xs text-white/40 cursor-pointer hover:underline">View Repo</a>
+
               <motion.span
                 className="text-white/50 text-sm"
                 animate={{ rotate: activeProject === "examsite" ? 180 : 0 }}
