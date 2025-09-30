@@ -701,7 +701,7 @@ export default function Home() {
             </div>
             <p className="text-sm md:text-base text-white/60">
               Next.js production calculator with sleek design, built from
-              passion for the game's complexity.
+              passion for the game&apos;s complexity.
             </p>
           </motion.div>
 
