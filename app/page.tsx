@@ -79,7 +79,7 @@ export default function Home() {
         {
           title: "🤖 Bot Architecture",
           content:
-            "Engineered with discord.py, StandUP Bot streamlines team communication through intelligent automation. Some features include timezone-aware scheduling and role-based permissions. The bot&lsquo;s thread-based ticket system creates organized workspaces while ensuring data reliability across restarts.",
+            "Engineered with discord.py, StandUP Bot streamlines team communication through intelligent automation. Some features include timezone-aware scheduling and role-based permissions. The bot thread-based ticket system creates organized workspaces while ensuring data reliability across restarts.",
         },
         {
           title: "⚡ What I learned",
@@ -93,7 +93,7 @@ export default function Home() {
         {
           title: "🏭 Calculator Design",
           content:
-            "A Next.js production calculator that brings clarity to Factorio&lsquo;s complex manufacturing chains. Built from passion for the game&lsquo;s engineering puzzles, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
+            "A Next.js production calculator that brings clarity to the complex manufacturing chains of Factorio. Built from passion for the engineering puzzles of the game, it features intuitive ratio calculations, resource planning, and a clean interface that outshines existing tools in both aesthetics and functionality.",
         },
         {
           title: "🎯 Development Vision",
@@ -121,7 +121,7 @@ export default function Home() {
   return (
     <div className="min-h-screen p-4 md:p-8">
       <h1 className="mb-8 md:mb-12 text-2xl md:text-3xl lg:text-4xl text-center md:text-left">
-        Rosen Markov&lsquo;s portfolio
+        Rosen Markov&apos;s portfolio
       </h1>
 
       {/* Desktop Layout */}
@@ -143,7 +143,7 @@ export default function Home() {
 
               <div className="flex flex-col w-max ml-4">
                 <h1 className="border-b border-white/20 text-md mb-4 h-max pb-2">
-                  Hey 👋 I&lsquo;m Rosen
+                  Hey 👋 I&apos;m Rosen
                 </h1>
                 <ul className="border-b border-white/10 text-[13px] h-max pb-2">
                   <li className="mb-2">
@@ -158,7 +158,11 @@ export default function Home() {
 
             <div className="mt-4 flex flex-col justify-evenly">
               <p className="text-md hover:text-white/90 transition-all duration-200 ease-in-out text-white/60">
-                I design and build full-stack web applications that are both performant and user-friendly. My work combines responsive React/Next.js interfaces with Django/Python backends, RESTful APIs, and CRUD systems to deliver seamless experiences that put users first.
+                I design and build full-stack web applications that are both
+                performant and user-friendly. My work combines responsive
+                React/Next.js interfaces with Django/Python backends, RESTful
+                APIs, and CRUD systems to deliver seamless experiences that put
+                users first.
               </p>
               <div className="flex justify-evenly mt-8 flex-wrap gap-2">
                 <img
@@ -306,7 +310,14 @@ export default function Home() {
           >
             <div className="flex items-center justify-between">
               <h1 className="">🎯 DartOne</h1>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/rosenmarkov35/DartOne" className="text-xs text-white/40 cursor-pointer hover:underline">View Repo</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/rosenmarkov35/DartOne"
+                className="text-xs text-white/40 cursor-pointer hover:underline"
+              >
+                View Repo
+              </a>
               <motion.span
                 className="text-white/50 text-sm"
                 animate={{ rotate: activeProject === "dartone" ? 180 : 0 }}
@@ -333,7 +344,14 @@ export default function Home() {
           >
             <div className="flex items-center justify-between">
               <h1 className="">🤖 StandUP Bot</h1>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/rosenmarkov35/Discord-StandUP-Bot" className="text-xs text-white/40 cursor-pointer hover:underline">View Repo</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/rosenmarkov35/Discord-StandUP-Bot"
+                className="text-xs text-white/40 cursor-pointer hover:underline"
+              >
+                View Repo
+              </a>
               <motion.span
                 className="text-white/50 text-sm"
                 animate={{ rotate: activeProject === "standup" ? 180 : 0 }}
@@ -360,7 +378,14 @@ export default function Home() {
           >
             <div className="flex items-center justify-between">
               <h1 className="">🏭 Factorio Calculator</h1>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/rosenmarkov35/Factorio-Calculator" className="text-xs text-white/40 cursor-pointer hover:underline">View Repo</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/rosenmarkov35/Factorio-Calculator"
+                className="text-xs text-white/40 cursor-pointer hover:underline"
+              >
+                View Repo
+              </a>
               <motion.span
                 className="text-white/50 text-sm"
                 animate={{ rotate: activeProject === "factorio" ? 180 : 0 }}
@@ -371,7 +396,7 @@ export default function Home() {
             </div>
             <p className="text-sm text-white/60">
               Next.js production calculator with sleek design, built from
-              passion for the game&lsquo;s complexity.
+              passion for the game&apos;s complexity.
             </p>
           </motion.div>
 
@@ -387,7 +412,14 @@ export default function Home() {
           >
             <div className="flex items-center justify-between">
               <h1 className="">🛒 Exam Site</h1>
-              <a target="_blank" rel="noopener noreferrer" href="https://github.com/rosenmarkov35/exam_site" className="text-xs text-white/40 cursor-pointer hover:underline">View Repo</a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/rosenmarkov35/exam_site"
+                className="text-xs text-white/40 cursor-pointer hover:underline"
+              >
+                View Repo
+              </a>
 
               <motion.span
                 className="text-white/50 text-sm"
@@ -423,7 +455,7 @@ export default function Home() {
 
             <div className="flex flex-col text-center sm:text-left">
               <h1 className="border-b border-white/20 text-lg mb-4 pb-2">
-                Hey 👋 I&lsquo;m Rosen
+                Hey 👋 I&apos;m Rosen
               </h1>
               <ul className="border-b border-white/10 text-sm pb-2 space-y-1">
                 <li>✨ Still trying to center divs since 2022</li>
@@ -436,10 +468,11 @@ export default function Home() {
 
           <div className="mt-6">
             <p className="text-sm md:text-base text-white/60 hover:text-white/90 transition-all duration-200 ease-in-out mb-6">
-              I&lsquo;m a software engineer passionate about building responsive
-              web apps. I work with React and Next.js for dynamic UIs and have
-              built full-stack projects using Django and Python, implementing
-              REST APIs, CRUD features, and clean backend logic.
+              I design and build full-stack web applications that are both
+              performant and user-friendly. My work combines responsive
+              React/Next.js interfaces with Django/Python backends, RESTful
+              APIs, and CRUD systems to deliver seamless experiences that put
+              users first.
             </p>
 
             <div className="grid grid-cols-5 sm:grid-cols-9 gap-3 justify-items-center">
@@ -582,6 +615,14 @@ export default function Home() {
           >
             <div className="flex items-center justify-between mb-2">
               <h1 className="text-base md:text-lg">🎯 DartOne</h1>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/rosenmarkov35/DartOne"
+                className="text-xs text-white/40 cursor-pointer hover:underline"
+              >
+                View Repo
+              </a>
               <motion.span
                 className="text-white/50 text-sm"
                 animate={{ rotate: activeProject === "dartone" ? 180 : 0 }}
@@ -608,6 +649,14 @@ export default function Home() {
           >
             <div className="flex items-center justify-between mb-2">
               <h1 className="text-base md:text-lg">🤖 StandUP Bot</h1>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/rosenmarkov35/Discord-StandUP-Bot"
+                className="text-xs text-white/40 cursor-pointer hover:underline"
+              >
+                View Repo
+              </a>
               <motion.span
                 className="text-white/50 text-sm"
                 animate={{ rotate: activeProject === "standup" ? 180 : 0 }}
@@ -634,6 +683,14 @@ export default function Home() {
           >
             <div className="flex items-center justify-between mb-2">
               <h1 className="text-base md:text-lg">🏭 Factorio Calculator</h1>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/rosenmarkov35/Factorio-Calculator"
+                className="text-xs text-white/40 cursor-pointer hover:underline"
+              >
+                View Repo
+              </a>
               <motion.span
                 className="text-white/50 text-sm"
                 animate={{ rotate: activeProject === "factorio" ? 180 : 0 }}
@@ -644,7 +701,7 @@ export default function Home() {
             </div>
             <p className="text-sm md:text-base text-white/60">
               Next.js production calculator with sleek design, built from
-              passion for the game&lsquo;s complexity.
+              passion for the game's complexity.
             </p>
           </motion.div>
 
@@ -660,6 +717,14 @@ export default function Home() {
           >
             <div className="flex items-center justify-between mb-2">
               <h1 className="text-base md:text-lg">🛒 Exam Site</h1>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/rosenmarkov35/exam_site"
+                className="text-xs text-white/40 cursor-pointer hover:underline"
+              >
+                View Repo
+              </a>
               <motion.span
                 className="text-white/50 text-sm"
                 animate={{ rotate: activeProject === "examsite" ? 180 : 0 }}
